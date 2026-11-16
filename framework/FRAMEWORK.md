@@ -63,4 +63,4 @@ Status: empty. `Code/viz_style.py` and step 3 of `instructions.md` already set t
 The `report-checker` reads these. Until they are filled in it reports the matching item as a note, not a fault.
 
 - Labelled exploratory: [TO FILL: what wording marks a report as exploratory, and in which section it must appear. Upstream has no rule for this. Open decision 6 in `plan/ROADMAP.md`.]
-- Citation marked verified: [TO FILL, or leave as it is. With no definition here the checker uses upstream's record: the Analysis Log entry that says which sources were read in full and which rest on an abstract. Open decision 7 in `plan/ROADMAP.md`.]
+- Citation marked verified: no separate marker (decided 2026-11-16, decision 7 in `plan/ROADMAP.md`). The checker uses upstream's record as its check 5 describes: the Analysis Log entry that says which sources were read in full and which rest on an abstract.

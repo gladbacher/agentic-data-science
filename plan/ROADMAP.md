@@ -1,6 +1,6 @@
 # Roadmap
 
-Four phases, about four weeks. [TO FILL: whether that pace fits around work. Open decision 2.]
+Four phases, about four weeks. Pace confirmed on 2026-11-16: it fits around work.
 
 Started: ____
 
@@ -17,7 +17,7 @@ Exit met: [ ] on ____
 
 ## Phase 2: pilot on my own data, contract untouched (week 1)
 
-- [ ] Choose one dataset and one question. Public or non-confidential data only. Candidates: a football model dataset, or a public insurance or market dataset. [TO FILL: open decision 1.]
+- [ ] Choose one dataset and one question. Public or non-confidential data only. Candidates: a football model dataset, or a public insurance or market dataset. Leaning football as of 2026-11-16, not final. The question is still to be chosen. Open decision 1.
 - [ ] Run the eight steps on a branch of its own
 - [ ] Send no `FRAMEWORK` messages during this phase
 - [ ] Log every correction in the pilot log
@@ -68,6 +68,8 @@ Status of all four: PROPOSED, not agreed. Confirm or edit each one. Open decisio
 | 3 | The pilot log is empty after a full run | Assume I am not checking. Re-run one step and look harder | Proposed |
 | 4 | Confidential data appears in `Attachments/` | Stop and remove it | Proposed |
 
+Note, 2026-11-16: Obsidian, Claudian and VS Code were already set up before the vault was generated. What is left of setup for criterion 1 is `uv` and `Code/setup_env.sh`.
+
 ## Other risks
 
 | Risk | Handling |
@@ -78,14 +80,16 @@ Status of all four: PROPOSED, not agreed. Confirm or edit each one. Open decisio
 
 ## Open decisions
 
-Mine to make. Nothing here is decided.
+Mine to make. The numbers are fixed, because other files refer to them.
 
-1. Pilot dataset and question.
-2. Whether the pace of about four weeks fits around my job.
-3. Whether to add Codex support, since Uppsala names it. Default: no, Claude only.
-4. The kill criteria above.
-5. Which step I do unaided, and how often.
-6. What counts as "labelled exploratory" in a report, and where the label goes. Upstream has no rule. The definition goes in `framework/FRAMEWORK.md`.
-7. Whether I want a verification marker on each citation, or upstream's Analysis Log record is enough.
-8. Whether this vault gets a private remote. Upstream's promotion rule pushes, and with no remote the agent will report a failed push each time.
-9. Whether a `FRAMEWORK` message authorises the agent to push.
+| # | Decision | Status |
+| --- | --- | --- |
+| 1 | Pilot dataset and question | Open. Leaning football as of 2026-11-16. Dataset and question not chosen |
+| 2 | Whether the pace of about four weeks fits around my job | Decided 2026-11-16: yes |
+| 3 | Whether to add Codex support, since Uppsala names it | Decided 2026-11-16: no, Claude only |
+| 4 | The kill criteria above | Open. None of the four is confirmed or edited yet |
+| 5 | Which step I do unaided, and how often | Open |
+| 6 | What counts as "labelled exploratory" in a report, and where the label goes. Upstream has no rule. The definition goes in `framework/FRAMEWORK.md` | Open |
+| 7 | Whether I want a verification marker on each citation | Decided 2026-11-16: no marker. Upstream's Analysis Log record is enough |
+| 8 | Whether this vault gets a private remote. Upstream's promotion rule pushes, and with no remote the agent will report a failed push each time | Open |
+| 9 | Whether a `FRAMEWORK` message authorises the agent to push | Open |
