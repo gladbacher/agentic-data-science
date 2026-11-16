@@ -91,5 +91,5 @@ Mine to make. The numbers are fixed, because other files refer to them.
 | 5 | Which step I do unaided, and how often | Open |
 | 6 | What counts as "labelled exploratory" in a report, and where the label goes. Upstream has no rule. The definition goes in `framework/FRAMEWORK.md` | Open |
 | 7 | Whether I want a verification marker on each citation | Decided 2026-11-16: no marker. Upstream's Analysis Log record is enough |
-| 8 | Whether this vault gets a private remote. Upstream's promotion rule pushes, and with no remote the agent will report a failed push each time | Open |
+| 8 | Whether this vault gets a private remote | Decided 2026-11-16: yes. Private GitHub repository added as `origin`. With it in place, upstream's promotion rule will push after a `FRAMEWORK` change unless decision 9 changes the contract first |
 | 9 | Whether a `FRAMEWORK` message authorises the agent to push | Open |
